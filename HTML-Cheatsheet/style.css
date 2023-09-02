@@ -1,3 +1,16 @@
+body {
+    background-color: #dcdcdc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -10,11 +23,29 @@ section {
 }
 
 table {
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
+    border: 2px solid #9932CC;
     text-align:left;
 }
 
+thead {
+    text-align: center;
+}
+
 td, th {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 3px 25px 3px 5px;
+}
+
+td {
+    border-top: 1px solid #9932CC;
+}
+
+th {
+    background-color: #DDA0DD;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
 }
